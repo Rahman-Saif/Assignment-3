@@ -45,7 +45,7 @@
         <div class="banner container ml-14 lg:mx-auto mt-28">
             <div class="carousel w-96 ml-7 lg:w-full">
   <div id="slide1" class="carousel-item relative w-full">
-    <img src="/Images/1.png" class="w-96 lg:w-full" />
+    <img src="./Images/1.png" class="w-96 lg:w-full" />
     <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
       <a href="#slide4" class="btn btn-circle">❮</a> 
       <a href="#slide2" class="btn btn-circle">❯</a>
@@ -150,7 +150,7 @@ enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. 
             <div class="card-1 w-96 lg:w-[35rem] ">
                 <div class="card card-side bg-base-100 shadow-xl p-5 flex flex-col lg:flex-row ">
                     <div>
-  <figure><img class="w-44" src="Images/5.png" alt="Movie"/></figure>
+  <figure><img class="w-44" src="./Images/5.png" alt="Movie"/></figure>
   </div>
   <div>
   <div class="card-body">
@@ -181,7 +181,7 @@ enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. 
             <div class="card-2 w-96 lg:w-[35rem]">
                 <div class="card card-side bg-base-100 shadow-xl flex flex-col lg:flex-row p-5">
                     <div>
-  <figure><img class="w-44" src="Images/6.png" alt="Movie"/></figure>
+  <figure><img class="w-44" src="./Images/6.png" alt="Movie"/></figure>
   </div>
   <div>
   <div class="card-body">
@@ -212,7 +212,7 @@ enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. 
             <div class="card-3 w-96 lg:w-[35rem]">
                 <div class="card card-side bg-base-100 shadow-xl p-5 flex flex-col lg:flex-row">
                     <div>
-  <figure><img class="w-44" src="Images/7.png" alt="Movie"/></figure>
+  <figure><img class="w-44" src="./Images/7.png" alt="Movie"/></figure>
   </div>
   <div>
   <div class="card-body">
@@ -243,7 +243,7 @@ enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. 
             <div class="card-4 w-96 lg:w-[35rem]">
                 <div class="card card-side bg-base-100 shadow-xl p-5 flex flex-col lg:flex-row">
                     <div>
-  <figure><img class="w-44" src="Images/8.png" alt="Movie"/></figure>
+  <figure><img class="w-44" src="./Images/8.png" alt="Movie"/></figure>
   </div>
   <div>
   <div class="card-body">
@@ -274,7 +274,7 @@ enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. 
             <div class="card-5 w-96 lg:w-[35rem]">
                 <div class="card card-side bg-base-100 shadow-xl p-5 flex flex-col lg:flex-row">
                     <div>
-  <figure><img class="w-44" src="Images/9.png" alt="Movie"/></figure>
+  <figure><img class="w-44" src="./Images/9.png" alt="Movie"/></figure>
   </div>
   <div>
   <div class="card-body">
@@ -305,7 +305,7 @@ enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. 
             <div class="card-6 w-96 lg:w-[35rem]"> 
                 <div class="card card-side bg-base-100 shadow-xl p-5 flex flex-col lg:flex-row">
                     <div>
-  <figure><img class="w-44" src="Images/10.png" alt="Movie"/></figure>
+  <figure><img class="w-44" src="./Images/10.png" alt="Movie"/></figure>
   </div>
   <div>
   <div class="card-body">
@@ -499,33 +499,46 @@ enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. 
     </section>
     </main>
     
-    <footer class="footer lg:p-10 bg-black text-white  w-[38rem]  h-auto lg:h-96 flex flex-col lg:flex-row lg:justify-between">
-  <aside class="w-full lg:w-80 ">
+    <footer class="footer lg:p-10 bg-black text-white  lg:w-full w-[38rem]  h-auto lg:h-96 flex flex-col lg:flex-row lg:justify-between">
+        <div class="grid grid-cols-2 lg:grid-cols-4 gap-44">
+            <div class="col-span-2 text-center">
+  <aside class="w-full lg:w-80 gap-3 ">
     <h1 class="text-3xl font-bold text-center w-full ">Get In Touch</h1>
-    <p class="text-xl w-full ">Dit amet consectetur. Condimentum  adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
-    <p><i class="fa-regular fa-envelope text-red-800 width-full text-center" ></i>  hockeys@support.com</p>
-    <p><i class="fa-solid fa-phone text-red-800 width-full text-center"></i>(+62) 123-321-543</p>
+    <p class="text-xl w-full text-[#FFFFFF99]">Dit amet consectetur. Condimentum  adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+    <p class="text-[#FFFFFF99]"><i class="fa-regular fa-envelope text-red-800 width-full text-center" ></i>  hockeys@support.com</p>
+    <p class="text-[#FFFFFF99]"><i class="fa-solid fa-phone text-red-800 width-full text-center"></i>(+62) 123-321-543</p>
   </aside> 
-  <nav class="text-center">
-    <header class="footer-title ">Company</header> 
-    <a class="link link-hover">Branding</a>
-    <a class="link link-hover">Design</a>
-    <a class="link link-hover">Marketing</a>
-    <a class="link link-hover">Advertisement</a>
+  </div>
+  <div class="col-span-1 ">
+  <nav class="text-center flex flex-col gap-3 ">
+    <header class="footer-title">Company</header> 
+    <a class="link link-hover text-[#FFFFFF99]">About us</a>
+    <a class="link link-hover text-[#FFFFFF99]">Leadership</a>
+    <a class="link link-hover text-[#FFFFFF99]">Careers</a>
+    <a class="link link-hover text-[#FFFFFF99]">News & Article</a>
+    <a class="link link-hover text-[#FFFFFF99]">Legal Notice</a>
   </nav> 
-  <nav>
+  </div>
+  <div class="col-span-1">
+  <nav class="flex flex-col gap-3 ">
     <header class="footer-title">Support</header> 
-    <a class="link link-hover">About us</a>
-    <a class="link link-hover">Contact</a>
-    <a class="link link-hover">Jobs</a>
-    <a class="link link-hover">Press kit</a>
+    <a class="link link-hover text-[#FFFFFF99]">Help Center</a>
+    <a class="link link-hover text-[#FFFFFF99]">FAQ</a>
+    <a class="link link-hover text-[#FFFFFF99]">Ticket Support</a>
+    <a class="link link-hover text-[#FFFFFF99]">Contact Us</a>
   </nav> 
-  <nav>
+  </div>
+  <div class="col-span-2">
+  <nav class="flex flex-col gap-3 ">
     <header class="footer-title">Services</header> 
-    <a class="link link-hover">Terms of use</a>
-    <a class="link link-hover">Privacy policy</a>
-    <a class="link link-hover">Cookie policy</a>
+    <a class="link link-hover text-[#FFFFFF99]">Academy</a>
+    <a class="link link-hover text-[#FFFFFF99]">Group Lesson</a>
+    <a class="link link-hover text-[#FFFFFF99]">Private Lesson</a>
+    <a class="link link-hover text-[#FFFFFF99]">Hockeys for kids</a>
+    <a class="link link-hover text-[#FFFFFF99]">Hockeys for Adul</a>
   </nav>
+  </div>
+  </div>
 </footer>
 
 </body>
